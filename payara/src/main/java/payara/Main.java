@@ -35,7 +35,8 @@ public class Main {
 	        }*/
 		PayaraMicro.getInstance()                           
         .addDeployment("wars/wars-0.0.1-SNAPSHOT.war")                            
-    	.bootStrap();    
+    	.bootStrap();     
+		//
 	}
 	
 }
