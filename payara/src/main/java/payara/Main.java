@@ -32,10 +32,10 @@ public class Main {
 	        {
 	            Logger.getLogger(Main.class.getName()).log(Level.SEVERE, 
 	                    null, ex);
-	        }		PayaraMicro.getInstance()                           
+	        }*/
+		PayaraMicro.getInstance()                           
         .addDeployment("wars/wars-0.0.1-SNAPSHOT.war")                            
-    	.bootStrap();   */
-		System.out.println("hello!");
+    	.bootStrap();    
 	}
 	
 }
